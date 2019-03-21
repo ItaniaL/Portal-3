@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Portal2
 {
-    public partial class SiteMaster : MasterPage
+    public partial class Contact : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

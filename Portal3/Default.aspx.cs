@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Portal3
+namespace NSU_College_Portal
 {
     public partial class _Default : Page
     {
