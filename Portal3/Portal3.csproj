@@ -252,6 +252,7 @@
     <Compile Include="CoursePage.aspx.designer.cs">
       <DependentUpon>CoursePage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
