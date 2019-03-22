@@ -21,20 +21,20 @@
         <br /><br />
         <!-- Search form --> 
         <center>
-         <select id="Select1" style="height: 22px">
-             <option>Select a school</option>
-             <option>Hampton University</option>
-             <option>Norfolk State University</option>
-             <option>Old Dominion University</option> 
-        </select>
-
-        
+        <asp:DropDownList ID="List_Schoool" runat="server">
+            <asp:ListItem Enabled="true" Text="Select a School" Value="-1"></asp:ListItem>
+            <asp:ListItem Text="Hampton University" Value="Hampton Universityt"></asp:ListItem>
+            <asp:ListItem Text="Norfolk State University" Value="Norfolk State University"></asp:ListItem>
+            <asp:ListItem Text="Old Dominion University" Value="Old Dominion University"></asp:ListItem>
+        </asp:DropDownList>    
     
         <!---
              <form class="form-inline md-form form-sm active-cyan-2 mt-2">
                      <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Find your school..." aria-label="Search" aria-autocomplete="none" aria-disabled="False">
                     <i class="fas fa-search" aria-hidden="true"></i>
              </form> --->
+
+            <asp:Button ID="But_Select" runat="server" Text="Submit" OnClick="But_Select_Click" />
 
             <br />
             <h6 style="color: #000000; font-size: x-small">Don't see your school? <asp:LinkButton ID="LinkButton1" runat="server">Create a new school account</asp:LinkButton></h6>

@@ -13,5 +13,25 @@ namespace Portal2
         {
 
         }
+
+        protected void ImageButton12_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/BrowseAll.aspx");
+        }
+
+        protected void ImageButton16_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Ask.aspx");
+        }
+
+        protected void ImageButton14_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Forum.aspx");
+        }
+
+        protected void ImageButton17_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Contact.aspx");
+        }
     }
 }

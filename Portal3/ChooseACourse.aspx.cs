@@ -13,5 +13,10 @@ namespace Portal2
         {
 
         }
+
+        protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/CoursePage.aspx");
+        }
     }
 }

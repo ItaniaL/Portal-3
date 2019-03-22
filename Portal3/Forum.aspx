@@ -14,7 +14,7 @@
     <div class="jumbotron">
         
         <h3 align="left">
-        <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" Font-Size="Smaller">Question: How can I write a do-while loop that outputs 1-10 backwords?</asp:HyperLink>
+        <asp:HyperLink ID="Hyper_FirstQuestion" runat="server" Font-Underline="True" Font-Size="Smaller">Question: How can I write a do-while loop that outputs 1-10 backwords?</asp:HyperLink>
         </h3>
         <p style="font-size: medium" align="left">Tags:  #forloops, #loops, #programming</p>
 
@@ -30,7 +30,7 @@
         
 
 
-        <p align="middle"><asp:Button ID="Button4" runat="server" Text="Ask A Question" BackColor="#99CCFF" BorderColor="#FFFFFF" Height="44px" /></p>
+        <p align="middle"><asp:Button ID="Button4" runat="server" Text="Ask A Question" BackColor="#99CCFF" BorderColor="#FFFFFF" Height="44px" OnClick="Button4_Click" /></p>
         
 
 

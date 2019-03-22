@@ -11,8 +11,8 @@
     </div>
     <div style="width: 2000px;">
         <div style="width: 1000px; float: right;">
-            
-            <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server">
                 <asp:ListItem>#ForLoops</asp:ListItem>
                 <asp:ListItem>#Arrays</asp:ListItem>
                 <asp:ListItem>#Conditionals</asp:ListItem>
@@ -29,14 +29,14 @@
                 <asp:ListItem>#Structs</asp:ListItem>
                 <asp:ListItem>#Classes</asp:ListItem>
                 <asp:ListItem>#Strings</asp:ListItem>
-            </asp:CheckBoxList>
+            </asp:RadioButtonList>
         </div>
    
         <div style="width: 1000px; float: left;">
         <h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/browsePU.png" Width="306px" ImageAlign="Middle" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton16" runat="server" Height="200px" ImageUrl="~/Images/askPU.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/browsePU.png" Width="306px" ImageAlign="Middle" OnClick="ImageButton12_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton16" runat="server" Height="200px" ImageUrl="~/Images/askPU.jpg" Width="306px" ImageAlign="Middle" OnClick="ImageButton16_Click" />
             &nbsp;&nbsp;&nbsp;
 
 
@@ -45,9 +45,9 @@
                 &nbsp;</p>
             <h1>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton14" runat="server" Height="200px" ImageUrl="~/Images/AnswerPU.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton14" runat="server" Height="200px" ImageUrl="~/Images/AnswerPU.jpg" Width="306px" ImageAlign="Middle" OnClick="ImageButton14_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton17" runat="server" Height="200px" ImageUrl="~/Images/Report.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton17" runat="server" Height="200px" ImageUrl="~/Images/Report.jpg" Width="306px" ImageAlign="Middle" OnClick="ImageButton17_Click" />
 
 
         </h1>

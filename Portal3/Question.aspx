@@ -18,8 +18,8 @@
     </center>
 
     <!-- Upload terms & button -->
-    <br />By pressing submit, you agree to College Portal's upload terms.
-    <asp:Button ID="ButtonU" runat="server" Text="Submit" BackColor="#99CCFF" BorderColor="#FFFFFF" Height="22px" Width="119px" />
+    <br />By pressing Accept, you agree to College Portal's upload terms.
+    <asp:Button ID="ButtonU" runat="server" Text="Accept" BackColor="#99CCFF" BorderColor="#FFFFFF" Height="22px" Width="119px" />
 
 <center>
     <!-- Answer 1 -->

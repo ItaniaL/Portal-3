@@ -11,7 +11,12 @@ namespace Portal3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Hyper_FirstQuestion.NavigateUrl = "Question";
+        }
 
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Ask.aspx");
         }
     }
 }

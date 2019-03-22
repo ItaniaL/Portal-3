@@ -14,13 +14,21 @@
    
         <h1>
             <asp:ImageButton ID="ImageButton6" runat="server" Height="200px" Width="306px" ImageAlign="Left" ImageUrl="~/Images/BIO.jpg" />
-
+            
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
             <asp:ImageButton ID="ImageButton7" runat="server" Height="200px" ImageUrl="~/Images/CHM.png" Width="306px" ImageAlign="Middle" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <asp:ImageButton ID="ImageButton8" runat="server" Height="200px" ImageUrl="~/Images/CS.jpg" Width="306px" ImageAlign="Right" />
 &nbsp;&nbsp;&nbsp;
-
+            <br /> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <asp:Label ID="Label1" runat="server" Text="Text"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <asp:Label ID="Label2" runat="server" Text="Text"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label3" runat="server" Text="Text"></asp:Label>
+            &nbsp;&nbsp;&nbsp;
         </h1>
         <p>
             &nbsp;</p>

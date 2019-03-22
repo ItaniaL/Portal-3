@@ -1,6 +1,6 @@
 ﻿<%@ Page Title= Ask Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Ask.aspx.cs" Inherits="CollegePortal.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<center>
+    <center>
  
     <!-- Text box --> 
     <br />
@@ -28,10 +28,10 @@
     By pressing submit, you agree to the upload terms.<br />
         
     <!-- Cancel button -->
-    <asp:Button ID="ButtonC" runat="server" Text="Cancel" Height="22px" />
+    <asp:Button ID="ButtonC" runat="server" Text="Cancel" Height="22px" OnClick="ButtonC_Click" />
     
     <!-- Submit button -->
-    <asp:Button ID="ButtonS" runat="server" Text="Submit" BackColor="#99CCFF" BorderColor="#FFFFFF" Height="22px" />
+    <asp:Button ID="ButtonS" runat="server" Text="Submit" BackColor="#99CCFF" BorderColor="#FFFFFF" Height="22px" OnClick="ButtonS_Click" />
 
     </center>
 

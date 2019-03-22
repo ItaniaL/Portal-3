@@ -18,7 +18,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
             <asp:ImageButton ID="ImageButton7" runat="server" Height="200px" ImageUrl="~/Images/folder2.jpg" Width="306px" ImageAlign="Middle" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton8" runat="server" Height="200px" ImageUrl="~/Images/folder3.jpg" Width="306px" ImageAlign="Right" />
+            <asp:ImageButton ID="ImageButton8" runat="server" Height="200px" ImageUrl="~/Images/folder3.jpg" Width="306px" ImageAlign="Right" OnClick="ImageButton8_Click" />
 &nbsp;&nbsp;&nbsp;
 
         </h1>

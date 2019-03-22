@@ -13,5 +13,13 @@ namespace NSU_College_Portal
         {
 
         }
+
+        protected void But_Select_Click(object sender, EventArgs e)
+        {
+            if(List_Schoool.Text == "Norfolk State University")
+            {
+                Response.Redirect("~/ChooseASubject.aspx");
+            }
+        }
     }
 }

@@ -13,5 +13,15 @@ namespace CollegePortal
         {
 
         }
+
+        protected void ButtonC_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Forum.aspx");
+        }
+
+        protected void ButtonS_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Forum.aspx");
+        }
     }
 }
