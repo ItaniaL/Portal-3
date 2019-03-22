@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Chose A Course" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChooseACourse.aspx.cs" Inherits="Portal2.Contact" %>
+﻿<%@ Page Title="Choose A Course" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChooseACourse.aspx.cs" Inherits="Portal2.Contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
@@ -8,7 +8,7 @@
         <h2>NORFOLK STATE UNIVERSITY PORTAL</h2>
         
             <!-- Search form -->
-        <input class="form-control" type="text" placeholder="Find A Subject" aria-label="Search"></center>
+        <input class="form-control" type="text" placeholder="Find A Course..." aria-label="Search"></center>
         <h3 style="color: #FFFFFF; font-size: medium; font-family: 'Helvetica'"><center>
     </div>
     

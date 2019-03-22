@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Chose A Subject" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChooseASubject.aspx.cs" Inherits="Portal2.About" %>
+﻿<%@ Page Title="Choose A Subject" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChooseASubject.aspx.cs" Inherits="Portal2.About" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
    <div class="jumbotron" style="background-color:#CFD8DC; background-image: url('Images/starbackground.jpg'); color: #FFFFFF;" role="combobox">
@@ -7,7 +7,7 @@
         <h2>NORFOLK STATE UNIVERSITY PORTAL</h2>
         
             <!-- Search form -->
-        <input class="form-control" type="text" placeholder="Find A Subject" aria-label="Search"></center>
+        <input class="form-control" type="text" placeholder="Find A Subject..." aria-label="Search"></center>
         <h3 style="color: #FFFFFF; font-size: medium; font-family: 'Helvetica'"><center>
     </div>
     <div>

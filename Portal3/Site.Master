@@ -6,8 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
-
+    <title>College Portal | <%: Page.Title %></title>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
@@ -54,6 +53,11 @@
                         <li><a runat="server" href="~/ChooseACourse">Choose A Course</a></li>
                         <li><a runat="server" href="~/CoursePage">Course Page</a></li>
                         <li><a runat="server" href="~/BrowseAll">Browse All</a></li>
+                        <li><a runat="server" href="~/Contact">Contact Us</a></li>
+                        <li><a runat="server" href="~/Question">Question Example</a></li>
+                        <li><a runat="server" href="~/Upload">Upload</a></li>
+                        <li><a runat="server" href="~/Forum">Forum</a></li>
+                        <li><a runat="server" href="~/Ask">Ask A Question</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +67,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - NSU Golden Spartans</p>
             </footer>
         </div>
 

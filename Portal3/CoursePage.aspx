@@ -6,7 +6,7 @@
         <h2>NORFOLK STATE UNIVERSITY PORTAL</h2>
         
             <!-- Search form -->
-        <input class="form-control" type="text" placeholder="Find A Subject" aria-label="Search"></center>
+        <input class="form-control" type="text" placeholder="Search for a question..." aria-label="Search"></center>
         <h3 style="color: #FFFFFF; font-size: medium; font-family: 'Helvetica'"><center>
     </div>
     <div style="width: 2000px;">
