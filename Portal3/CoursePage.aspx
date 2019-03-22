@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron" style="background-color:#CFD8DC; background-image: url('Images/starbackground.jpg'); color: #FFFFFF;" role="combobox">
         <h1 style="color: #00ffff; font-weight: bold; font-size: xx-large; font-family: 'Helvetica'"><center>COLLEGE PORTAL</center></h1>
-        <center><h1> <asp:Image ID="Image1" runat="server" Height="94px" Width="115px" ImageAlign="Middle" /></h1>
+        <center><h1> <asp:Image ID="Image1" runat="server" Height="94px" Width="115px" ImageAlign="Middle" ImageUrl="~/Images/AstroTransparent.png" /></h1>
         <h2>NORFOLK STATE UNIVERSITY PORTAL</h2>
         
             <!-- Search form -->
@@ -35,8 +35,8 @@
         <div style="width: 1000px; float: left;">
         <h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton16" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/browsePU.png" Width="306px" ImageAlign="Middle" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:ImageButton ID="ImageButton16" runat="server" Height="200px" ImageUrl="~/Images/askPU.jpg" Width="306px" ImageAlign="Middle" />
             &nbsp;&nbsp;&nbsp;
 
 
@@ -45,9 +45,9 @@
                 &nbsp;</p>
             <h1>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton14" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton14" runat="server" Height="200px" ImageUrl="~/Images/AnswerPU.jpg" Width="306px" ImageAlign="Middle" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton17" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton17" runat="server" Height="200px" ImageUrl="~/Images/Report.jpg" Width="306px" ImageAlign="Middle" />
 
 
         </h1>

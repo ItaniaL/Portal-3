@@ -4,6 +4,7 @@
 
     <div class="jumbotron" style="background-color:#CFD8DC; background-image: url('images/starbackground.jpg'); color: #FFFFFF;" role="combobox">
         <h1 style="color: #00ffff; font-weight: bold; font-size: xx-large; font-family: 'Helvetica'"><center>COLLEGE PORTAL</center></h1>
+        <center><h1> <asp:Image ID="Image1" runat="server" Height="94px" Width="115px" ImageAlign="Middle" ImageUrl="~/Images/AstroTransparent.png" /></h1>
         <h2 style="color: #3366FF; font-weight: bold; font-size: medium; font-family: 'Courier New'"><center>Find your Gateway to Success</center></h2>
         <h3 style="color: #FFFFFF; font-size: medium; font-family: 'Helvetica'"><center>
             

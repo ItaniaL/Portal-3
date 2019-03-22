@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
    <div class="jumbotron" style="background-color:#CFD8DC; background-image: url('Images/starbackground.jpg'); color: #FFFFFF;" role="combobox">
         <h1 style="color: #00ffff; font-weight: bold; font-size: xx-large; font-family: 'Helvetica'"><center>COLLEGE PORTAL</center></h1>
-        <center><h1> <asp:Image ID="Image1" runat="server" Height="94px" Width="115px" ImageAlign="Middle" /></h1>
+        <center><h1> <asp:Image ID="Image1" runat="server" Height="94px" Width="115px" ImageAlign="Middle" ImageUrl="~/Images/AstroTransparent.png" /></h1>
         <h2>NORFOLK STATE UNIVERSITY PORTAL</h2>
         
             <!-- Search form -->
@@ -13,34 +13,34 @@
     <div>
    
         <h1>
-            <asp:ImageButton ID="ImageButton6" runat="server" Height="200px" Width="306px" ImageAlign="Left" ImageUrl="~/Images/math-subject-clipart-1.jpg" />
+            <asp:ImageButton ID="ImageButton6" runat="server" Height="200px" Width="306px" ImageAlign="Left" ImageUrl="~/Images/BIO.jpg" />
 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton7" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="200px" ImageUrl="~/Images/CHM.png" Width="306px" ImageAlign="Middle" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton8" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Right" />
+            <asp:ImageButton ID="ImageButton8" runat="server" Height="200px" ImageUrl="~/Images/CS.jpg" Width="306px" ImageAlign="Right" />
 &nbsp;&nbsp;&nbsp;
 
         </h1>
         <p>
             &nbsp;</p>
         <p>
-            <asp:ImageButton ID="ImageButton9" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Left" />
+            <asp:ImageButton ID="ImageButton9" runat="server" Height="200px" ImageUrl="~/Images/ECON.jpg" Width="306px" ImageAlign="Left" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton10" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton10" runat="server" Height="200px" ImageUrl="~/Images/MTH.png" Width="306px" ImageAlign="Middle" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton11" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Right" />
+            <asp:ImageButton ID="ImageButton11" runat="server" Height="200px" ImageUrl="~/Images/PHY.jpg" Width="306px" ImageAlign="Right" />
 &nbsp;&nbsp;&nbsp;&nbsp;
 
         </p>
         <p>
             &nbsp;</p>
         <p>
-            <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Left" />
+            <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/Images/PSY.jpg" Width="306px" ImageAlign="Left" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton13" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Middle" />
+            <asp:ImageButton ID="ImageButton13" runat="server" Height="200px" ImageUrl="~/Images/ENG.jpg" Width="306px" ImageAlign="Middle" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:ImageButton ID="ImageButton14" runat="server" Height="200px" ImageUrl="~/Images/math-subject-clipart-1.jpg" Width="306px" ImageAlign="Right" />
+            <asp:ImageButton ID="ImageButton14" runat="server" Height="200px" ImageUrl="~/Images/ECON.jpg" Width="306px" ImageAlign="Right" />
 
         </p>
     </div>

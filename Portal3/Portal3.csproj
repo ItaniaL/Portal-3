@@ -135,9 +135,40 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Forum.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Images\1star.png" />
+    <Content Include="Images\2star.png" />
+    <Content Include="Images\3star.png" />
+    <Content Include="Images\4star.png" />
+    <Content Include="Images\5star.png" />
+    <Content Include="Images\AnswerPU.jpg" />
+    <Content Include="Images\askPU.jpg" />
+    <Content Include="Images\AstroTransparent.png" />
+    <Content Include="Images\BIO.jpg" />
+    <Content Include="Images\browsePU.png" />
+    <Content Include="Images\CHM.png" />
+    <Content Include="Images\CryingTransAstro.png" />
+    <Content Include="Images\CS.jpg" />
+    <Content Include="Images\ECON.jpg" />
+    <Content Include="Images\ENG.jpg" />
     <Content Include="Images\folder.jpg" />
+    <Content Include="Images\folder1.jpg" />
+    <Content Include="Images\folder2.jpg" />
+    <Content Include="Images\folder3.jpg" />
+    <Content Include="Images\folder4.jpg" />
+    <Content Include="Images\folder5.jpg" />
+    <Content Include="Images\folder6.jpg" />
+    <Content Include="Images\folder7.jpg" />
+    <Content Include="Images\folder8.jpg" />
+    <Content Include="Images\folder9.jpg" />
+    <Content Include="Images\forumPU.jpg" />
+    <Content Include="Images\MTH.png" />
+    <Content Include="Images\PHY.jpg" />
+    <Content Include="Images\PSY.jpg" />
+    <Content Include="Images\Report.jpg" />
+    <Content Include="Images\SearchBar.png" />
     <Content Include="Images\starbackground.jpg" />
     <Content Include="Images\math-subject-clipart-1.jpg" />
+    <Content Include="Images\uploadPU.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -231,6 +262,7 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
@@ -244,6 +276,7 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
